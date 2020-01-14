@@ -20,6 +20,11 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Text("Hello, World"),
+      appBar: AppBar(
+        title: Text("Kindler 🔥"),
+        backgroundColor: Colors.white,
+        centerTitle: true,
+      ),
     );
   }
 }
