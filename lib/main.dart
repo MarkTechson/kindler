@@ -18,6 +18,8 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Hello, World');
+    return Scaffold(
+      body: Text("Hello, World"),
+    );
   }
 }
