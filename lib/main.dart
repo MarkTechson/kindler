@@ -19,12 +19,12 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("Hello, World"),
       appBar: AppBar(
         title: Text("Kindler 🔥"),
         backgroundColor: Colors.white,
         centerTitle: true,
       ),
+      body: Text("Hello, World"),
     );
   }
 }
