@@ -35,9 +35,7 @@ class MyHomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Image.network('https://randomuser.me/api/portraits/lego/4.jpg'),
-
-              Text("Hi, I'm Bex, 22"),
-
+          Text("Hi, I'm Bex, 22"),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -49,8 +47,7 @@ class MyHomePage extends StatelessWidget {
                   border: new Border.all(
                       color: Color.fromRGBO(200, 200, 200, .5),
                       width: 12.0,
-                      style: BorderStyle.solid
-                  ),
+                      style: BorderStyle.solid),
                 ),
                 child: Icon(
                   Icons.close,
@@ -66,8 +63,7 @@ class MyHomePage extends StatelessWidget {
                   border: new Border.all(
                       color: Color.fromRGBO(200, 200, 200, .5),
                       width: 12.0,
-                      style: BorderStyle.solid
-                  ),
+                      style: BorderStyle.solid),
                 ),
                 child: Icon(
                   Icons.favorite,
